@@ -1,0 +1,127 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#141d49</item>
+        <item name="colorPrimaryDark">#141d49</item>
+        <item name="colorAccent">#FFFFFF</item>
+    </style>
+
+    <!-- Custom style for the first/parent Linear Layout -->
+    <style name="LinearLayout1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+    <!-- Custom style for the ImageView that represent the logo -->
+    <style name="ImageViewLogo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:src">@drawable/logo</item>
+    </style>
+
+    <!-- Custom style for the TextView that represent the website -->
+    <style name="TextViewWebSite">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:text">@string/website</item>
+        <item name="android:textAppearance">@style/TextStyle1</item>
+        <item name="android:layout_marginTop">@dimen/EightDP</item>
+    </style>
+
+    <!-- Custom style for the TextView that represent "Find us offline"  -->
+    <style name="FindUsOffline">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:text">@string/findUsOffline</item>
+        <item name="android:textAppearance">@style/TextStyle1</item>
+        <item name="android:layout_marginTop">@dimen/EightDP</item>
+    </style>
+
+    <!-- Custom style for the second Linear Layout -->
+    <style name="LinearLayout2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/EightDP</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- Custom style for ImageView's that represent lines -->
+    <style name="ImageViewLine">
+        <item name="android:layout_width">@dimen/onedp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#bf5227</item>
+    </style>
+
+    <!-- Custom style for the TextVies in Linear Layout 2 -->
+    <style name="TextViewsInLinearLayout2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textAppearance">@style/TextStyle1</item>
+        <item name="android:layout_marginLeft">@dimen/EightDP</item>
+        <item name="android:layout_marginRight">@dimen/EightDP</item>
+    </style>
+
+    <!-- Custom style for the third Linear Layout -->
+    <style name="LinearLayout3">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- Custom style for the TextVies in Linear Layout 3 -->
+    <style name="TextViewsInLinearLayout3">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textAppearance">@style/TextStyle2</item>
+        <item name="android:layout_margin">@dimen/EightDP</item>
+    </style>
+
+
+    <style name="ViewPager">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/ViewPagerHeight</item>
+    </style>
+
+
+    <style name="LinearLayout_SwipeLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+
+    <style name="SwipeLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:isScrollContainer">true</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <!-- Custom text style -->
+    <style name="TextStyle1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#bf5227</item>
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Custom text style -->
+    <style name="TextStyle2" >
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#bf5227</item>
+        <item name="android:fontFamily">serif-monospace</item>
+
+    </style>
+
+</resources>
+

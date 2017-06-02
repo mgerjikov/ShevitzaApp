@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_group1">8dp</dimen>
+    <dimen name="onedp">1dp</dimen>
+    <dimen name="EightDP">8dp</dimen>
+    <dimen name="ViewPagerHeight">245dp</dimen>
+
+</resources>

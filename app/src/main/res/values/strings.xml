@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ShevitzaApp</string>
+    <string name="store3">Karoliny Světlé 23 Praha 1 – Staré Město Prague, Czech Republic</string>
+    <string name="store2">20 Gladston Str. Plovdiv, Bulgaria</string>
+    <string name="store1">26, 6-ti Septemvri Str. Sofia, Bulgaria</string>
+    <string name="website">http://www.shevitza.eu</string>
+    <string name="findUsOffline">Find us Offline</string>
+    <string name="storeName1">Gallery 2.0</string>
+    <string name="storeName2">Magazinche.com</string>
+    <string name="storeName3">Balkanova</string>
+</resources>

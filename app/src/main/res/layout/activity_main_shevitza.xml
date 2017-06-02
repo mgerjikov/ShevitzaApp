@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_shevitza"
+    style="@style/LinearLayout1"
+    tools:context="com.example.android.shevitzaapp.MainActivityShevitza">
+
+
+    <ImageView
+        android:id="@+id/logo_id"
+        style="@style/ImageViewLogo" />
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        style="@style/ViewPager">
+
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:id="@+id/text1_id"
+        style="@style/TextViewWebSite" />
+
+    <TextView style="@style/FindUsOffline" />
+
+    <LinearLayout style="@style/LinearLayout2">
+
+        <TextView
+            style="@style/TextViewsInLinearLayout2"
+            android:text="@string/storeName1" />
+
+        <ImageView style="@style/ImageViewLine" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/TextViewsInLinearLayout2"
+            android:text="@string/storeName2" />
+
+        <ImageView style="@style/ImageViewLine" />
+
+        <TextView
+            style="@style/TextViewsInLinearLayout2"
+            android:text="@string/storeName3" />
+
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/LinearLayout3">
+
+        <TextView
+            style="@style/TextViewsInLinearLayout3"
+            android:text="@string/store1" />
+
+        <ImageView style="@style/ImageViewLine" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/TextViewsInLinearLayout3"
+            android:text="@string/store2" />
+
+        <ImageView style="@style/ImageViewLine" />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/TextViewsInLinearLayout3"
+            android:text="@string/store3" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
